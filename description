@@ -1,0 +1,35 @@
+Given the data-set of eating habits of people as  P7.csv
+
+Input data-set:
+
+   Taste   Temperature Texture  Eat
+0  Salty         Hot    Soft   No
+1  Spicy         Hot    Soft   No
+2  Spicy         Hot    Hard  Yes
+3  Spicy        Cold    Hard   No
+4  Spicy         Hot    Hard  Yes
+
+Convert strings into numbers i.e
+Replace  (strictly follow the nomenclature)
+Salty, spicy and sweet by 0,1 and 3 respectively
+Hot and cold by 0 and 1 respectively
+Soft and hard by 0 and 1 respectively
+No and Yes by 0 and 1 respectively
+Store training features (taste,temperature and texture) in variable "X"
+Similarly store target feature (Eat) in variable "y"
+Build a decision tree model with criterion="entropy" using this dataset to  predict below test  instances
+X_test1=[[0,1,1],[2,0,1]]
+save the output of testcase 1 in following directory: "/code/P7_eval1.csv"
+
+X_test2=[[2,0,0],[1,0,1]]
+save the output of testcase 2 in following directory: "/code/P7_eval2.csv"
+      5.  Classify the above test instances
+
+
+Sample output:
+
+[1 0]
+[1 0]
+
+Note:
+Sample output given above is just to give you information about type of output; it may not be the correct output
